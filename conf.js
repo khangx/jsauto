@@ -58,7 +58,7 @@ exports.config = {
     // var SpecReporter = require('jasmine-spec-reporter');
     // jasmine.getEnv().addReporter(new SpecReporter({displayStacktrace: 'all'}));
     // jasmine.getEnv().addReporter(reporter);
-    var AllureReporter = require('./node_modules/jasmine-spec-reporter');
+    var AllureReporter = require('./node_modules/jasmine-allure-reporter');
     jasmine.getEnv().addReporter(new AllureReporter({
       resultsDir: './allure-results'
     }));
