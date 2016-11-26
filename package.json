@@ -8,7 +8,9 @@
     "jasmine-spec-reporter": "^2.7.0",
     "jasmine-allure-reporter": "^1.0.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "protractor": "^4.0.11"
+  },
   "scripts": {
     "test": "protractor"
   },
