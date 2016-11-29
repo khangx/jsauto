@@ -4,7 +4,6 @@
   "description": "automation",
   "main": "conf.js",
   "dependencies": {
-    "protractor-jasmine2-screenshot-reporter": "^0.3.2",
     "jasmine-allure-reporter": "^1.0.1"
   },
   "devDependencies": {
